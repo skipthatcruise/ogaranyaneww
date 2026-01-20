@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogaranya Admin Console - Sign In</title>
+    <link rel="stylesheet" href="admin_console.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="login-container">
+        <div class="logo-placeholder">
+            <img src="ogaranya_logo.png" alt="Ogaranya Logo">
+        </div>
+
+        <h3 class="console-title">Ogaranya Admin Console</h3>
+        <h1 class="sign-in-title">Sign in</h1>
+
+        <form class="login-form">
+            <label for="email">Email Address</label>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="Ogaboss@gmail.com" required>
+                <img src="mail.png" alt="Email image" class="input-icon">
+            </div>
+
+            <div class="password-header">
+                <label for="password">Password</label>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="123@Oga.Admin" required>
+                <img src="eye.png" alt="Toggle Password Visibility" class="input-icon">
+            </div>
+            
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+
+        <p class="join-us-text">
+            Don't know what Ogaranya is? 
+            <a href="#" class="join-us-link">JOIN US</a>
+        </p>
+    </div>
+</body>
+</html>

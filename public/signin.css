@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.logo{
+    width: 260px;
+    height: 64px;
+}
+
+.logo_container{
+    margin-top: 130px;
+}
+
+.console-title{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #232323;
+    margin: 0 0 5px 0;
+}
